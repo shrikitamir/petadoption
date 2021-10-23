@@ -5,6 +5,10 @@ This project is a Pet Shelter website.
 ## Description
 
 This Project uses React for the Front-End, Node.js For the Back-End and mySql as a database.
+Front-End Deployed on Netlify.
+Back-End Deployed on Heroku.
+(To use this app features cloning and following the instructions is needed because the Database is needed to log in etc etc..)
+Make yourself an admin in the database to see more features in the app.
 
 ## Getting Started
 
