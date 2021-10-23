@@ -1,0 +1,37 @@
+.admin-title {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.dashboard-dropdown {
+  padding-bottom: 60px;
+}
+
+.dashboard-link {
+  text-decoration: none;
+  text-align: left;
+}
+
+.list-container {
+  width: 20%;
+  margin: auto;
+}
+
+.list-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.list-item {
+  transition: 0.2s;
+}
+
+.list-item:hover {
+  color: #c5c6c7;
+}
+
+@media screen and (max-width: 1280px) {
+  .list-container {
+    width: 50%;
+  }
+}

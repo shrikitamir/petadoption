@@ -1,0 +1,25 @@
+.title-404 {
+  font-size: 100px;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+}
+
+.subtitle-404 {
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.go-back-404 {
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.link-404 {
+  color: #45a29e;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link-404:hover {
+  color: #66fcf1;
+}

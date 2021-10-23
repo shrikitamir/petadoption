@@ -1,0 +1,36 @@
+.review-list li {
+  display: block;
+  float: left;
+}
+
+.review-list > * {
+  padding: 40px;
+}
+
+.img-round {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.review-paragraph {
+  font-weight: 700;
+}
+
+.review-logo {
+  height: 300px;
+  position: relative;
+  margin: 0 95px 0 85px;
+}
+
+@media screen and (max-width: 565px) {
+  .review-logo {
+    right: 12%;
+  }
+}
+
+@media (min-width: 992px) {
+  .review-list li {
+    width: 33.3333%;
+  }
+}

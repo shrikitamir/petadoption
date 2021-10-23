@@ -1,0 +1,63 @@
+.add-pet-title {
+  padding-top: 35px;
+}
+
+.pet-bio {
+  resize: none;
+}
+
+.file-label {
+  display: block;
+  text-align: left;
+}
+
+.no-margin-field {
+  margin-bottom: 0;
+}
+
+.checkbox-container {
+  text-align: left;
+}
+
+.addpet-last-label {
+  margin-left: 8px;
+  padding-bottom: 50px;
+}
+
+.max-value-form {
+  font-size: 13px;
+  color: rgb(150, 150, 150);
+  font-weight: 600;
+  text-align: left;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.addpet-button {
+  display: block !important;
+  margin: auto;
+  background: #66fcf1 !important;
+  border: 1px solid #0b0c10 !important;
+  color: #0b0c10 !important;
+  transition: 0.2s;
+  width: 30%;
+}
+
+.addpet-loader {
+  display: block !important;
+  margin: auto;
+}
+
+.pet-message {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.addpet-button:hover {
+  background: #0b0c10 !important;
+  color: #66fcf1 !important;
+}

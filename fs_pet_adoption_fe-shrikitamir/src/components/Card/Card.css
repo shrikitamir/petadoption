@@ -1,0 +1,21 @@
+.card {
+  display: inline-block !important;
+  margin: 2%;
+}
+
+.pet-card-img {
+  width: 250px;
+  height: 230px;
+}
+
+.card-button {
+  background: #66fcf1 !important;
+  border: none !important;
+  color: #0b0c10 !important;
+  transition: 0.2s;
+}
+
+.card-button:hover {
+  background: #0b0c10 !important;
+  color: #66fcf1 !important;
+}

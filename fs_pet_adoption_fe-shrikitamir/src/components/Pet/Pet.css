@@ -1,0 +1,135 @@
+.loader-container {
+  width: 60%;
+  margin: auto;
+  padding: 120px;
+  background-color: #eeeeee;
+}
+
+.editpet-spinner {
+  margin: 8px auto;
+}
+
+.pet-img {
+  max-height: 600px;
+  width: 100%;
+}
+
+.pet-title {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.pet-card {
+  margin-top: 5%;
+  width: 60%;
+}
+
+.card-img {
+  height: 450px;
+}
+
+.pet-list {
+  width: 60%;
+  margin: auto;
+}
+
+.pet-page-bio {
+  resize: none;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.pet-list-item {
+  display: flex !important;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  color: #818182;
+}
+
+.pet-edit-input {
+  height: 30px;
+}
+
+.field-instructions {
+  font-size: 11px;
+}
+
+.pet-select {
+  height: 30px;
+  width: 210px;
+  margin-bottom: 7px;
+}
+
+.pet-file-input {
+  width: 46%;
+}
+
+.pet-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet-button,
+.like-button {
+  margin-bottom: 5px;
+  width: 100px;
+  height: 40px;
+  background: #66fcf1 !important;
+  border: 1px solid #0b0c10 !important;
+  color: #0b0c10 !important;
+  transition: 0.2s;
+}
+
+.pet-button:hover {
+  background: #0b0c10 !important;
+  color: #66fcf1 !important;
+}
+
+.like-button:hover {
+  background: #45a29e !important;
+}
+
+.like {
+  font-size: 30px;
+  position: relative;
+  right: 10px;
+  bottom: 2px;
+}
+
+.pet-button-ml {
+  margin-left: 10px !important;
+}
+
+.pet-save-changes {
+  width: 140px;
+}
+
+.failed-from-server {
+  font-size: 20px;
+  margin: 0;
+  color: crimson;
+  font-weight: 600;
+  background: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .pet-card {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .pet-button-ml {
+    margin-left: 0 !important;
+  }
+
+  .two-btn-container {
+    width: 140px;
+  }
+
+  .pet-list {
+    width: 95%;
+  }
+}

@@ -1,0 +1,58 @@
+#titleSection {
+  height: 292px;
+  padding-top: 0;
+}
+
+.typed-string {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #0b0c10;
+}
+
+.title-image {
+  z-index: 1;
+  position: relative;
+  right: 0;
+  bottom: 33px;
+}
+
+@media screen and (max-width: 1220px) {
+  .title-image {
+    right: 100px;
+    top: 43px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .title-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title-image {
+    right: 100px;
+    top: -43px;
+  }
+}
+
+@media screen and (max-width: 802px) {
+  .title-image {
+    height: 200px;
+    right: 70px;
+    top: -8px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .big-heading {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,29 @@
+.mypets-section {
+  padding-top: 30px;
+}
+
+.mypets-title {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.switch-button {
+  width: 200px;
+}
+
+.mypets-section h1 {
+  margin: 0;
+  padding-top: 4%;
+}
+
+.cards-area {
+  width: 80%;
+  margin: auto;
+  padding: 4% 0;
+}
+
+@media screen and (max-width: 992px) {
+  .mypets-section h1 {
+    font-size: 22px;
+  }
+}

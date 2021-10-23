@@ -1,0 +1,56 @@
+.modal-header button {
+  border: none;
+  font-size: 35px;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.blocking-field,
+.blocking-field {
+  display: block;
+}
+
+.text-muted {
+  display: block;
+}
+
+.signin-button {
+  position: relative;
+  top: 65px;
+  left: 190px;
+  background: #66fcf1 !important;
+  border: 1px solid #0b0c10 !important;
+  color: #0b0c10 !important;
+  transition: 0.2s;
+}
+
+.signin-button:hover {
+  background: #0b0c10 !important;
+  color: #66fcf1 !important;
+}
+
+.is-registered {
+  color: #0b0c10;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+
+.is-registered:hover {
+  color: #c5c6c7;
+}
+
+.wrong-combination {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  left: 16px;
+  bottom: 37px;
+}
+
+.modal-footer {
+  justify-content: space-between !important;
+}

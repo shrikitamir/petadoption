@@ -1,0 +1,14 @@
+.user-title {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.pets-owned-title {
+  margin-bottom: 20px;
+}
+
+.user-cards-area {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 0;
+}

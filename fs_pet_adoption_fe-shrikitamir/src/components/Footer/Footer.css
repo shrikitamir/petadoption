@@ -1,0 +1,19 @@
+footer {
+  padding-top: 10px;
+  height: 20%;
+  padding-bottom: 3%;
+}
+
+.container-fluid {
+  padding-top: 80px;
+}
+
+.social-icon {
+  margin: 20px 35px;
+  transition: 0.2s;
+  color: black;
+}
+
+.social-icon:hover {
+  color: #c5c6c7;
+}

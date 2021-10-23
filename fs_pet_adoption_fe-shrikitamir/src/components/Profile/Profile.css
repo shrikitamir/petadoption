@@ -1,0 +1,218 @@
+.profile-header {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.profile-section {
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+user-img {
+  height: 250px;
+}
+
+.profile {
+  padding: 3%;
+  border-radius: 0.5rem;
+  background: #d4d1d1;
+  border: 4px solid #66fcf1;
+}
+
+.profile-img img {
+  width: 60%;
+  border-radius: 10px;
+  border: 2px solid #66fcf1;
+}
+
+.profile-img .file {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20%;
+  width: 59%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #212529b8;
+}
+
+.profile-img .file input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.profile-head h5 {
+  color: #0b0c10;
+}
+
+.profile-head h6 {
+  color: #1f2833;
+}
+
+.profile-email {
+  font-size: 14px;
+  color: #818182;
+  margin-top: 5%;
+}
+
+.profile-email span {
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile-edit-btn:hover,
+.save-changes:hover {
+  background: #6c757d;
+  color: #dbd8d8;
+}
+
+.save-changes {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 10px;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile-head .nav-tabs {
+  margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+  padding: 14%;
+  margin-top: -15%;
+}
+
+.profile-work h5 {
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.profile-work p {
+  text-decoration: none;
+  color: #495057;
+  word-break: break-word;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.bio-field,
+.profile-tab input {
+  margin-top: 10px;
+  width: 300px;
+  height: 83px;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  border-style: none solid solid none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+
+.bio-field:focus,
+.profile-tab input:focus {
+  background: none repeat scroll 0 0 #ffffff;
+  outline-width: 0;
+}
+
+.bio-field {
+  resize: none;
+  font-size: 15px;
+}
+
+.profile-tab label {
+  font-weight: 600;
+}
+
+.profile-tab p {
+  font-weight: 600;
+  color: #0062cc;
+}
+
+.profile-tab input {
+  height: 25px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 13px;
+}
+
+.change-password-btn {
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.server-msg {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fix-profile-form {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: crimson;
+}
+
+.change-password-btn:hover {
+  color: #45a29e;
+}
+
+.change-btn {
+  background: #66fcf1 !important;
+  border: 1px solid #0b0c10 !important;
+  color: #0b0c10 !important;
+  transition: 0.2s;
+}
+
+.change-btn:hover {
+  background: #0b0c10 !important;
+  color: #66fcf1 !important;
+}
+
+@media screen and (max-width: 770px) {
+  .profile-edit-btn-container {
+    position: relative;
+  }
+
+  .bio-field {
+    width: 90%;
+  }
+
+  .profile-edit-btn {
+    margin: auto;
+  }
+}
