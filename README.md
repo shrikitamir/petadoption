@@ -1,6 +1,6 @@
 # PetPalace
 
-This project is a Pet Shelter website.
+This project is a Pet Shelter App made by Tamir Shriki.
 
 ## Description
 
