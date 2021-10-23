@@ -34,7 +34,7 @@ This project is a Pet Shelter website.
 - morgan.
 - nodemon.
 
-- Run in both folder frontend and backend
+- Run in both folders frontend and backend
 ```
 npm install
 ```
