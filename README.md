@@ -1,14 +1,11 @@
 # PetPalace
 
-This project is a Pet Shelter App made by Tamir Shriki.
+This project is a Pet Shelter website.
 
 ## Description
 
-- This Project uses React for the Front-End, Node.js For the Back-End and mySql as a database.
-- Front-End Deployed on Netlify.
-- Back-End Deployed on Heroku.
-- (To use the app features clone and follow the instructions because the database is needed to register and login)
-- Make yourself an admin in the database to see more features in the app.
+This Project uses React for the Front-End, Node.js For the Back-End and mySql as a database.
+- Make yourself an admin in the database to see more features in the app. (change isAdmin to 1)
 
 ## Getting Started
 
@@ -34,15 +31,10 @@ This project is a Pet Shelter App made by Tamir Shriki.
 - morgan.
 - nodemon.
 
-- Run in both folders frontend and backend
-```
-npm install
-```
-
 ### Installing
 
 - To use the app you'll need first to configure the environment variables:
-- Back-End .env expects:
+  Back-End .env expects:
 
 - (Create Cloudinary User)
 
@@ -62,11 +54,7 @@ npm install
 
 - ACCESS_TOKEN = X
 
-- Front-End .env expects:
-
-- REACT_APP_API_HOSTNAME = http://localhost:5000 (default)
-
-### Executing program
+### Running the project
 
 - In the front-end folder run in the CLI
 
@@ -77,9 +65,10 @@ npm start
 - In the back-end folder run in the CLI
 
 ```
-npm run dev
+npm start
 ```
+- or for development purposes (nodemon)
 
 ```
-npm start
+npm run dev
 ```
