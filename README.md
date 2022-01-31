@@ -5,7 +5,7 @@ This project is a Pet Shelter website.
 ## Description
 
 This Project uses React for the Front-End, Node.js For the Back-End and mySql as a database.
-- Make yourself an admin in the database to see more features in the app. (change isAdmin to 1)
+- Make yourself an admin in the database to see more features in the app. (db => users table => isAdmin to 1)
 
 ## Getting Started
 
